@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="website icon" type="png"
+        href="logo.png">
+        <title>HackerPortfolio</title>
+        <!--link to fontawesome for inserting social media icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+   
+</head>
+
+<!-- link to css file -->
+ <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Navigation-->
+         <nav class="navbar">
+            <a href="#home" class="logo"><img src="logo.png" alt="logo" class="logo-img"> HIHI</a>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#skills"><i class="fa-solid fa-compass"></i> Explore</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>  
+            </ul>
+
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search...">
+                <button id="search-button">
+                    <i class="fas fa-search"></i> <!-- FontAwesome Icon -->
+                </button>
+            </div>
+
+            <div class="hamburger-menu" onclick="toggleMenu()">≡</div>
+            
+         </nav>
+        
+         <!-- Hero Section -->
+          <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>THE - CYBER ARMY</h1>
+                <p>Building digital experiences that merge creativity with technology</p>
+                <p class="highlight">Specializing in modern web development and cyber systems</p>
+                <button class="cta-button">
+                    <span class="text">Let's Connect</span>
+                    <i class="fa-solid fa-paper-plane icon"></i>
+                </button>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Profile" class="profile-img">
+            </div>
+            <div id="hero-assistant">
+                <button id="mic-button"><i class="fa-solid fa-microphone-lines"></i></button>
+                <p id="assistant-response">Ask me something...</p>
+            </div>
+          </section>
+
+          <!-- Skills Section -->
+           <section id="skills" class="skills">
+            <h2>Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skills-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Frontend development</h3>
+                    <p>React, Vue, HTML5, CSS3, JavaScript</p>
+                </div>
+                <div class="skills-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Python, MongoDB, PostgreSQL</p>
+                </div>
+                <div class="skills-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Adobe XD, Prototyping, User Testing</p>
+                </div>
+            </div>
+           </section>
+           
+           <!-- Footer -->
+            <footer>
+                <p>&copy; 2025 HIHI. All rights reserved.</p>
+                <p>Developed by KUMAR PRATIK </p>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+
+                </div>
+            </footer>
+
+            <!-- link to javascript file -->
+             <script src="script.js" defer></script>
+    </body>
+</html>
+
+                
